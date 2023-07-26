@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css2?family=Caprasimo&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: rgb(34, 33, 38);
+}
+.main-section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: rgb(232, 228, 228);
+    font-family: 'Caprasimo', cursive;
+    font-size: 100px;
+    height: 820px;
+    flex-direction: column;
+}
+.main-section h1{
+    font-size: 50px;
+    position: absolute ;
+    top: 15%;
+    color: rgb(226, 226, 226);
+}
+.clock{
+    display: flex;
+    position: absolute;
+}
+.clock-design{
+    border: 0.5px solid rgb(35, 187, 21);
+    margin: 20px;
+    height: 250px;
+    width: 250px;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 10px 5px 5px rgb(35, 187, 21);
+    display: flex;
+    border-radius:20px;
+    cursor:pointer;
+}
+.clock-design:hover{
+    box-shadow: 10px 5px 5px rgb(201, 37, 37);
+    border: 0.5px solid rgb(201, 37, 37);
+    transition: 0.2s;
+}
+.clock-design:active{
+    color: rgb(35, 187, 21);
+    transition: 0.1s;
+}
+
+#Millisecond-clock{
+    display: none;
+
+}
+#Millisecond-toggle{
+    height: 50px;
+    width: 150px;
+    border: 2px solid rgb(34, 161, 34);
+    background-color: transparent;
+    color: white;
+    font-size: 16px;
+    border-radius: 9px;
+    cursor: pointer;
+    position: absolute;
+    bottom: 23%;
+}
+#Millisecond-toggle:hover{
+    background-color: rgb(35, 187, 21);
+    transition: 0.35s;
+}
